@@ -132,6 +132,24 @@ class Portfolio extends React.Component {
           >
             All
           </span>
+          <span
+            onClick={(e) => this.filter(e, "Frontend Web")}
+            className="currentTab portfolioTab"
+          >
+            Frontend Web
+          </span>
+          <span
+            onClick={(e) => this.filter(e, "Backend Web")}
+            className="currentTab portfolioTab"
+          >
+            Backend Web
+          </span>
+          <span
+            onClick={(e) => this.filter(e, "Fullstack Web")}
+            className="currentTab portfolioTab"
+          >
+            Fullstack Web
+          </span>
         </div>
         <div className="container projects">{works}</div>
       </div>

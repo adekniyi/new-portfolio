@@ -43,7 +43,7 @@ class Contact extends React.Component {
                 </div>
                 <div>
                   <h3>Phone</h3>
-                  <p className="contactLink">+234-703-068-0817</p>
+                  <p className="contactLink">+234-907-097-0079</p>
                 </div>
               </a>
             </Fade>
@@ -52,7 +52,7 @@ class Contact extends React.Component {
           <div className="contactCard centered">
             <Fade bottom>
               <a
-                href="mailto:oriolaemmanuel199@mail.com"
+                href="mailto:adekniyi@gmail.com"
                 className="contactDetails"
               >
                 <div className="centered">
@@ -62,7 +62,7 @@ class Contact extends React.Component {
                 </div>
                 <div>
                   <h3>Email</h3>
-                  <p className="contactLink">oriolaemmanuel199@gmail.com</p>
+                  <p className="contactLink">adekniyi@gmail.com</p>
                 </div>
               </a>
             </Fade>

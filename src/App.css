@@ -162,7 +162,10 @@ button:hover {
 }
 .homepageWrapper {
   position: relative;
-  /* background-image: url("/images/emmaccen.jpg"); */
+  background: url(./Niyi.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 800px;
   width: 100%;
   background-attachment: fixed;

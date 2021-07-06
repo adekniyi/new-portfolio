@@ -1,7 +1,7 @@
 const resume = [
   {
     date: "Aug 2020 - Present",
-    title: "Back-End developer",
+    title: "Fullstack developer",
     desc: `Quomodo is a technology consulting and systems delivery company with operations in the Financial Services, Oil & Gas, Telecommunications etc. 
         Worked on project backend and database using .Net and C#.`,
     company: "Quomodo Systems",
@@ -12,51 +12,36 @@ const resume = [
   },
   {
     date: "July 2020 - Present",
-    title: "Full Stack Engineer - Intern",
-    desc: `Working with Dualogic and a team of developers in the creation of an ecommerce website with the aim of solving  
-        common ecommerce problems world wide.`,
-    company: "Dualogic",
-    location: "Mumbai, India.",
+    title: "Wordpress developer",
+    desc: `I built the company website using WordPress and after building I was
+    asked to maintain it which I still do till now (primarily using HTML, CSS,
+    BootStrap, JavaScript, and WordPress), Used SEO best practices to optimize Web site for search engine rankings and improved functionality of the company Website, • Posting content created by the content writer on the website and
+    keeping track of the users that visited the website per week (primarily
+    using Google analytics)`,
+    company: "Melhors Investment",
+    location: "Lagos, Nigeria.",
     icon: "icon-stack",
     type: "experience",
-    link: "",
+    link: "melhorsinvestment.com",
   },
   {
-    date: "May 2020 - Jul 2020",
+    date: "March, 2020 - July, 2020",
     title: "front-end developer - Intern",
-    desc: `ArtCab is a breakthrough web application in the ecosystem of film development and film production. 
-        ArtCab simplifies the complex process of collaboration and crew-building in the process of filmmaking. 
-        Worked and managed company website.`,
-    company: "ArtCab",
-    location: "Mumbai, India.",
-    icon: "icon-stack",
-    type: "experience",
-    link: "https://angel.co/company/artcab",
-  },
-  {
-    date: "Jan, 2020 - June, 2020",
-    title: "full-stack web developer",
-    desc: `Page is a company that provides software development services such as 
-        UI-UX designs, Mobile and Web applications, consultancy and more. Worked as a Full-Stack web developer.`,
-    company: "Page",
-    location: "Lagos, Nigeria.",
+    desc: `Each participant is grouped into teams varying between 10-120 people
+    depending on the stage. I was part of the frontend developer that worked
+    on some projects given to us building projects that cut across sectors like
+    health, hotel, etc (primarily using HTML, CSS, BootStrap, JavaScript), • I consumed a lot of API built by the backend guys (primarily using
+      JavaScript, Axios, Ajax) given me a bigger understanding of working with
+      API and as a team, I also in charge of converting a series of designs designed by series of
+      designers getting me better at the Convention.`,
+    company: "HNG",
+    location: "Remote, Nigeria.",
     icon: "icon-stack",
     type: "experience",
     link: "",
   },
   {
-    date: "Jan 2018 - Aug, 2020",
-    title: "Barista",
-    desc: `Vestar is the "Home Of Splendiferous Beverage". Deals in coffee, teas, pastries and more. 
-        Worked as a Barista and customer service representative.`,
-    company: "Vestar Coffee",
-    location: "Lagos, Nigeria.",
-    icon: "icon-stack",
-    type: "experience",
-    link: "",
-  },
-  {
-    date: "March 2015 - Dec, 2016",
+    date: "March 2015 - Dec, 2017",
     title: "Junior Teacher",
     desc: `Worked as a Junior teacher, lecturing Senior Primary (All curriculum) and 
         seldom Junior Secondary students in Biology and Chemistry (Scheduled).`,
@@ -77,20 +62,7 @@ const resume = [
     type: "education",
     link:
       "https://online-learning.harvard.edu/course/cs50-introduction-computer-science",
-  },
-  {
-    date: "June 2020",
-    title: "devjam semifinal runner up",
-    desc: ` ‘DevJam is a coding 'Gameshow' to find the the best developer team in the world. 
-        DevJam begins with 64 teams, each team is made up of two developers. 
-        The teams will go head to head to create a solution to the problem that has been given to them at the start of the week. 
-        Each week, exactly half the teams will be eliminated until there's only one standing to be the DevJam champion.`,
-    company: "Zaio",
-    location: "Cape Town. SA",
-    icon: "icon-medal",
-    type: "achievement",
-    link: "/images/award.png",
-  },
+  }
 ];
 
 export default resume;
